@@ -1,0 +1,205 @@
+.dashboard-container{
+    display: flex;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    /*background-color: rgb(221, 222, 223);*/
+    background: linear-gradient(180deg, rgba(185, 199, 214 ,0.5) 30%,  #bdc3c7 100%);
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.dashboard-box{
+    display: flex;
+    width: 95%;
+    height: 40%;
+    /*background-color: aliceblue;*/ 
+    flex-direction: row;
+}
+.dashboard-box2{
+    display: flex;
+    width: 95%;
+    height: 53%;
+    /*background-color: aliceblue;*/ 
+    flex-direction: row;
+    margin-top: 2%;
+}
+
+.selling-daily{
+    position: relative;
+    width: 50%;
+    height: 100%;
+    /*background-color:rgb(99, 146, 166, 0.5);*/
+    background: linear-gradient(180deg,#bdc3c7 30%, rgba(44,62,80,0.5) 100%);
+    border-radius: 2vh;
+    margin-right: 2%;
+    -webkit-box-shadow: 0px 11px 22px -2px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 11px 22px -2px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 11px 22px -2px rgba(0, 0, 0, 0.75);
+
+}
+.selling-monthly{
+  position: relative;
+  width: 50%;
+  height: 98%;
+  /*background-color: rgb(99, 146, 166, 0.5);*/
+  background: linear-gradient(180deg,#bdc3c7 30%, rgba(44,62,80,0.5) 100%);
+  border-radius: 2vh;
+  margin-right: 2%;
+  -webkit-box-shadow: 0px 11px 22px -2px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 11px 22px -2px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 11px 22px -2px rgba(0, 0, 0, 0.75);
+}
+.selling-daily-title{
+  position: absolute;
+  display: flex;
+  top: 85%;
+  width: 95%;
+  justify-content: flex-end;
+  font-size: 2vh;
+  font-weight: bold;
+
+}
+.selling-monthly-title{
+  position: absolute;
+  display: flex;
+  top: 89%;
+  width: 95%;
+  justify-content: flex-end;
+  font-size: 2vh;
+  font-weight: bold;
+}
+.selling-daily-graph{
+    position: relative;
+    display: flex;
+    width: 50%;
+    height: 100%;
+   /* background-color: rgb(99, 146, 166, 0.5);*/
+    background: linear-gradient(180deg,#bdc3c7 30%, rgba(44,62,80,0.5) 100%);
+    border-radius: 2vh;
+    align-items: flex-end;
+    justify-content: center;
+    -webkit-box-shadow: 0px 11px 22px -2px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 11px 22px -2px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 11px 22px -2px rgba(0, 0, 0, 0.75);
+
+}
+.selling-monthy-graph{
+    position: relative;
+    width: 50%;
+    height: 98%;
+    display: flex;
+    border-radius: 2vh;
+    align-items: flex-end;
+    justify-content: center;
+    /*background-color: rgb(99, 146, 166, 0.5);*/
+    background: linear-gradient(180deg,#bdc3c7 30%, rgba(44,62,80,0.5) 100%);
+    -webkit-box-shadow: 0px 11px 22px -2px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 11px 22px -2px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 11px 22px -2px rgba(0, 0, 0, 0.75);
+}
+#dashboard-today_table{
+    width: 100%;
+
+}
+
+.today_table-header{
+    width: 100%;
+    background-color:#405F6C;
+
+    
+}
+
+
+table, th {
+    height: 5vh;
+    border-collapse: collapse;
+    border: none;
+    padding: 1vh;
+    font-size: 1vw;
+    color: #000;
+    text-align: center;
+    font-family:'Times New Roman';
+    font-weight: 700;
+  
+  }
+
+  th{
+    color: #fff;
+  }
+
+  td:nth-child(1){
+    text-align:left; 
+    padding-left: 5%;
+   
+  }
+
+  th:nth-child(1) {
+
+    border-top-left-radius: 2vh;
+  }
+  
+  th:nth-last-child(1) {
+    border-top-right-radius: 2vh;
+  }
+  
+  .box-selling{
+    display:inline-flex; 
+    height: 90%;
+    width: 9%;
+    background-color: rgb(113, 136, 147, 0.5);
+    margin-left:1vw;
+    margin-right: 0.5vw;
+    align-items: flex-end;
+   
+  }
+
+  .box2-selling{
+    display:block;
+    width: 100%;
+    color: #fff;
+    font-size: 1vw;
+    padding-bottom: 0.5vh;
+  
+    text-align: center;
+    
+  }
+  .box2-selling-Text{
+    position: absolute;
+    display: inline-block;
+    top: -0.05vw;
+    margin-left:0.3vw;
+    font-size: 0.8vw;
+
+  }
+
+  .box-monthy{
+    display:inline-flex; 
+    height: 90%;
+    width: 7.5%;
+    background-color: rgb(113, 136, 147, 0.5);
+    align-items: flex-end;
+    margin-left: 0.8%;
+  }
+
+  .box2-monthy-Text{
+    position: absolute;
+    display: inline-block;
+    top: -0.05vw;
+    margin-left:0.3vw;
+    font-size: 0.8vw;
+    
+
+  }
+  .box2-monthy{
+    display:block;
+    width: 100%;
+    color: #fff;
+    font-size: 1vw;
+    padding-bottom: 0.5vh;
+    text-align:center
+    
+    
+  }

@@ -1,0 +1,140 @@
+#data-register-container{
+    position: relative;
+    /*background-color: #EFEFEF;*/
+    /*width: 25vw;
+    height: 70vh;*/
+    width: 20.5rem;
+    height: 28rem;
+    border-radius: 0.5rem;
+    border: none;
+    margin: 2rem auto;
+    -webkit-box-shadow: 0px 11px 22px -2px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 11px 22px -2px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 11px 22px -2px rgba(0, 0, 0, 0.75);
+    background: linear-gradient(180deg, #d7dde8 30%,   #757f9a 100%);
+    grid-column:span 2;
+    align-content: center;
+    align-self: center;
+    
+}
+
+#data-register-btn-header{
+    display: none;
+    justify-content: flex-end;
+    align-items: center;
+   /* background-color: #74C1B5;*/
+    background-color: rgb( 44, 62, 80, 0.5);
+    width: 20.5rem;
+    height: 4rem;
+    border-top-left-radius:0.5rem;
+    border-top-right-radius:0.5rem;
+    padding-right:0;
+    
+}
+
+#data-register-body{
+    width: 21.5rem;
+    /*padding: 0vh 2vh;*/
+   
+}
+
+#data-register-delete-btn{
+    width:2rem;
+    height:2rem;
+    border-radius:6vh;
+    border: none;
+    font-size:1rem;
+    font-weight: bold;
+    margin-right: 2%;
+    background-color: #678998;
+}
+.fa-solid{
+    font-size: 3rem;
+    padding: 1rem;
+    color: #fff;
+}
+#changeTable{
+    font-size: 5vh;
+    color: #000;
+    margin-left: 4vh;
+}
+#arrow{
+    color: #000;
+    font-size: 1.2rem;
+}
+#data-register-update-btn{
+    width:2rem;
+    height:2rem;
+    border-radius:2rem;
+    border: none;
+    font-size:1rem;
+    font-weight: bold;
+    margin-right: 0.5rem;
+    background-color: #678998;
+}
+#print{
+    width:2rem;
+    height:2rem;
+    border-radius:2rem;
+    border: none;
+    font-size:1rem;
+    font-weight: bold;
+    margin-right: 0.5rem;
+    background-color: #678998; 
+}
+
+/*
+  Table Style
+*/
+#info-table{
+    width: 20.5rem;
+      
+}
+#info-th{
+    height: 1.5rem;
+    font-size:1rem;
+    color: black;
+    border-top: 0.1rem solid #000;
+    border-bottom: 0.1rem solid #000;
+    text-align:center;
+}
+#info-td{
+    font-size:0.8rem;
+    padding-top: 0.5rem;
+    text-align:center;
+   
+}
+
+#data-footer{
+    position: absolute;
+    display: flex;
+    top: 24rem;
+    width: 20.5rem;
+    justify-content:flex-end;
+    align-items: flex-end;
+    border-bottom:0.1rem solid #000;
+}
+#info-header{
+    position: relative;
+    padding: 0vh 1rem;
+}
+#info-header-text{
+    text-align: end;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+#info-header-title{
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+#info-header-title2{
+    /*font-weight: bold;*/
+    font-size: 1rem;
+}
+
+#info-total-text{
+    font-size:0.8rem;
+    font-weight: bold;
+    margin-right: 1rem;
+}

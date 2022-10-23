@@ -1,0 +1,166 @@
+@import url('./src/components/styles/dashboard/dashboard.css');
+@import url('./src/components/styles/registro/viewRegister.css');
+@import url('./src//components/styles/registro/dataRegister.css');
+@import url('./src/components/styles/registro/deleteModal.css');
+@import url('./src/components/styles/record/viewRecord.css');
+@import url('./src/components/styles/registro/print.css');
+@import url('./src/components/styles/registro/infoAsTable.css');
+
+body{
+    position: relative;
+    margin: 0%;
+    width: 100vw;
+    height: 100vh;
+    padding: 0%;
+  
+}
+
+#setDataToprint{
+   position: absolute;
+   display: none;
+   width: 100%;
+   height: 100%;
+   z-index:12;
+   background-color: #fff;
+}
+#header{
+    position: absolute;
+    left: 15vw;
+    display: flex;
+    width: 85vw;
+    height: 8vh;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+   /*background-color: #DBF1ED;*/
+   background-color: #bdc3c7;
+}
+.menu{
+    display: flex;
+    position: absolute;
+    width: 15vw;
+    height: 99vh;
+   /* background-color: #DBF1ED;*/
+    background: linear-gradient(180deg,#bdc3c7 30%, #2c3e50 100%);
+    align-items: center;
+    flex-direction: column;
+    padding-top: 1vh;
+}
+#logo{
+  width: 15vh;
+  height: 15vh;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+
+}
+#logoText{
+  font-size:3.5vh;
+  font-weight: bold;
+}
+#button{
+    width: 90%;
+    height: 8%;
+    display: block;
+    border: none;
+    margin-bottom: 4%;
+    background-color:#678998;
+    border-radius: 2vh;
+    color: #fff;
+    font-size: 2.5vh;
+    font-family: 'Times New Roman', Times, serif;
+}
+#button:hover{
+    -webkit-box-shadow: 0px 11px 22px -2px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 11px 22px -2px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 11px 22px -2px rgba(0, 0, 0, 0.75);
+}
+
+#routes{
+    position: absolute;
+    top: 8vh;
+    left: 15vw;
+    width: 85vw;
+    height: 92vh;
+   
+}
+
+.home{
+    width: 40vw;
+    height: 40vh;
+}
+.homeText{
+    color:#fff;
+}
+
+
+.animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+  }
+  
+  @-webkit-keyframes animatezoom {
+    from {
+      -webkit-transform: scale(0)
+    }
+  
+    to {
+      -webkit-transform: scale(1)
+    }
+  }
+  
+  @keyframes animatezoom {
+    from {
+      transform: scale(0)
+    }
+  
+    to {
+      transform: scale(1)
+    }
+  }
+
+  .animate2{
+    -webkit-animation: animatezoom2 0.6s;
+    animation: animatezoom2 0.6s
+  }
+
+  @-webkit-keyframes animatezoom2 {
+    from {
+      -webkit-transform: scale(1)
+    }
+  
+    to {
+      -webkit-transform: scale(0)
+    }
+  }
+  
+  @keyframes animatezoom2 {
+    from {
+      transform: scale(1)
+    }
+  
+    to {
+      transform: scale(0)
+    }
+  }
+
+
+  
+::-webkit-scrollbar {
+  width: 1vh;
+
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #bdc3c7;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #2c3e50;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #2c3e50;
+}

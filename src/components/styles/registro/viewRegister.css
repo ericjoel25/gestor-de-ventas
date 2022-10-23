@@ -1,0 +1,329 @@
+.register-container{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #C1D3DB;
+}
+
+.register-header{
+    display: flex;
+    width: 98%;
+    height: 10%;
+    /*background-color: #678998;*/
+    background: rgb( 44, 62, 80, 0.4 );
+    flex-direction: row;
+    align-items: center;
+    padding-left: 2%;
+}
+
+.register-header-btn{
+    display: flex;
+    width: 6vh;
+    height: 6vh;
+    border: none;
+    background-color:#fff;
+    color: #000;
+    font-size: 5vh;
+    border-radius: 6vh;
+    border: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.register-header-btn:hover{
+  box-shadow:0px 11px 22px -2px rgba(0, 0, 0, 0.75);
+}
+
+.register-header-btn:after{
+  color: #000;
+ /* box-shadow:0px 11px 22px -2px rgba(0, 0, 0, 0.75);*/
+}
+
+.register-modal-content{
+    z-index: 2;
+    position: absolute;
+    display: none;
+    width: 100%;
+    height: 90%;
+    justify-content: space-around;
+    align-items: center;
+    /*background-color: rgba(250, 250, 250);*/
+    background: linear-gradient(180deg, rgba(185, 199, 214 ,1) 30%,  #bdc3c7 100%);
+}
+.register-modal-body{
+    display: flex;
+    width: 35%;
+    height: 85%;
+   /* background-color: rgb(123, 160, 154, 1);*/
+    background: linear-gradient(180deg,  #A2B0BD 30%,  rgba(185, 199, 214 ,1) 100%);
+    flex-direction: column;
+    border-radius: 1vh;
+    -webkit-box-shadow: 0px 11px 22px -2px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 11px 22px -2px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 11px 22px -2px rgba(0, 0, 0, 0.75);
+}
+
+#register-form{
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+}
+
+#title-register-form{
+  width: 90%;
+  margin-top: 2%;
+  font-size: 3vh;
+}
+
+#input-register-form{
+    display: inline;
+    width: 90%;
+    height: 5vh;
+    border: none;
+    border-radius: 1vh;
+    padding: 0vh 2vh;
+    font-size: 2.5vh;
+}
+.selectIpunt{
+  display:inline-block;
+  width: 95% !important;
+  height: 6vh;
+  border: none;
+  border-radius: 1vh;
+  font-size: 4vh;
+ 
+}
+#register-btn-form-container{
+    display: flex;
+    /*background-color: #fff;*/
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#save-btn-register-from{
+    width: 20%;
+    height: 5vh;
+    border: none;
+    background-color:#727F8C;
+    color: #fff;
+    border-radius: 5vh;
+    margin-left: 2%;
+    font-size: 2.5vh;
+}
+
+
+#cancel-btn-register-from{
+    width: 20%;
+    height: 5vh;
+    border: none;
+    font-size: 2.5vh;
+    background-color:#727F8C;
+    color: #fff;
+    border-radius: 5vh; 
+    margin-right: 2%;
+}
+.btn-hover:hover{
+  -webkit-box-shadow: 0px 11px 22px -2px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 11px 22px -2px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 11px 22px -2px rgba(0, 0, 0, 0.75);
+}
+
+#InfoContainer{
+z-index: 1;
+/*position: absolute;*/
+display: grid;
+width: 100%;
+height: 90%;
+/*background-color: #93BBB5;*/
+background: linear-gradient(180deg, rgba(185, 199, 214 ,0.5) 30%,  #bdc3c7 100%);
+grid-template-columns: repeat(auto-fill, minmax(min(100%, 10rem), 1fr));
+grid-auto-rows:30rem;
+grid-auto-flow:dense;
+overflow: auto;
+gap:0.5rem;
+
+
+}
+
+/* Table */
+
+.register-bill{
+  display: block;
+  width: 60%;
+  height: 85%;
+  /*background-color: rgb(123, 160, 154, 1);*/
+  background: linear-gradient(180deg,  #A2B0BD 30%,  rgba(185, 199, 214 ,1) 100%);
+  border-radius: 1vh;
+  -webkit-box-shadow: 0px 11px 22px -2px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 11px 22px -2px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 11px 22px -2px rgba(0, 0, 0, 0.75);
+}
+
+#bill_table{
+  width: 100%;
+ 
+}
+
+.bill-table-header{
+  width: 100%;
+  /*background-color:rgb( 88, 117, 113 );*/
+  background-color: #727F8C;
+
+  
+}
+
+
+table, th {
+  height: 5vh;
+  border-collapse: collapse;
+  border: none;
+  padding: 1vh;
+  font-size: 1vw;
+  color: #000;
+  font-family:'Times New Roman';
+  font-weight: 700;
+
+}
+
+
+th{
+  color: #fff;
+}
+th:nth-child(1) {
+
+  border-top-left-radius: 2vh;
+}
+
+th:nth-last-child(1) {
+  border-top-right-radius: 2vh;
+}
+
+#save-btn-table{
+  position: absolute;
+  top: 82%;
+  left: 85%;
+  width: 10%;
+  height: 6%;
+  border-radius: 2vh;
+  border: none;
+  background-color:#727F8C;
+  color: #fff;
+  font-size: 2vh;
+}
+#save-btn-table:hover{
+  -webkit-box-shadow: 0px 11px 22px -2px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 11px 22px -2px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 11px 22px -2px rgba(0, 0, 0, 0.75);
+}
+
+#save-btn-update-table{
+  position: absolute;
+  top: 82%;
+  left: 85%;
+  width: 10%;
+  height: 6%;
+  border-radius: 2vh;
+  border: none;
+  background-color:rgb(67, 92, 88);
+  color: #fff;
+}
+/* / Table */
+
+
+/* Delete modal **/
+.delete-modal-register-container{
+    z-index: 3;
+    position: absolute;
+    display: 'node';
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+    align-items: center;
+    justify-content: center;
+   
+
+}
+.delete-modal-register-body{
+    width: 30%;
+    height: 40%;
+    background-color: #fff;
+    border-radius: 2vh;
+}
+
+
+/** update Modal */
+.register-update-modal-content{
+  z-index: 2;
+  position: absolute;
+  display: none;
+  width: 100%;
+  height: 90%;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(250, 250, 250);
+}
+.register-update-modal-body{
+  display: flex;
+  width: 35%;
+  height: 85%;
+ /* background-color: rgb(123, 160, 154, 1);;*/
+  background: linear-gradient(180deg,  #A2B0BD 30%,  rgba(185, 199, 214 ,1) 100%);
+  flex-direction: column;
+  border-radius: 2vh;
+  margin-right: 2%;
+  -webkit-box-shadow: 0px 11px 22px -2px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 11px 22px -2px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 11px 22px -2px rgba(0, 0, 0, 0.75);
+}
+
+#register-update-form{
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+#title-register-update-form{
+width: 90%;
+margin-top: 2%;
+}
+
+#input-register-update-form{
+  width: 90%;
+  height: 5vh;
+  border: none;
+  border-radius: 1vh;
+  padding: 0vh 2vh;
+ 
+}
+
+#register-update-btn-form-container{
+  display: flex;
+  /*background-color: #fff;*/
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+
+}
+
+#save-btn-register-update-from{
+  width: 20%;
+  height: 5vh;
+  border: none;
+  background-color:#727F8C;
+  color: #fff;
+  border-radius: 5vh;
+  margin-left: 2%;
+
+}
+#cancel-btn-register-update-from{
+  width: 20%;
+  height: 5vh;
+  border: none;
+  background-color:#727F8C;
+  color: #fff;
+  border-radius: 5vh; 
+  margin-right: 2%;
+}
+

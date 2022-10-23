@@ -1,0 +1,101 @@
+.render-info-as-table-container{
+    z-index: 1;
+    position: absolute;
+    display: flex;
+    width: 100%;
+    height: 90%;
+    /*background-color: #93BBB5;*/
+    background: linear-gradient(180deg, rgba(185, 199, 214 ,1) 30%,  #bdc3c7 100%);
+    overflow:hidden;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.render-info-as-table-body{
+  position: relative;
+  width: 98%;
+  height: 95%;
+  background:linear-gradient(180deg,#bdc3c7 30%, rgba(44,62,80,0.5) 100%);
+  border-radius: 1vh;
+  -webkit-animation-name: animatetop;
+  -webkit-animation-duration: 0.9s;
+  animation-name: animatetop;
+  animation-duration: 0.9s
+  
+}
+
+.render-info-as-table{   
+    width: 100%;  
+}
+
+  .render-info-as-table-header{
+    position: sticky;
+    width: 100%;
+    /*background-color:rgb( 88, 117, 113 );*/
+   /* background-color: #727F8C;*/
+    background-color:#727F8C;
+  
+  
+    
+  }
+  .render-info-as-table-th{
+      height: 8vh;
+  }
+  .render-info-as-table-th:nth-child(1){
+    border-top-left-radius: 1vh;
+  }
+  .render-info-as-table-th:nth-last-child(1) {
+    border-top-right-radius: 1vh;
+  }
+
+ 
+  .render-info-as-table-td{
+    height: 5vh;
+    border-collapse:separate; 
+    margin-bottom: 2%;
+    padding: 1vh;
+  }
+
+  .render-info-as-table-td:nth-child(1){
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+   /* background-color: aliceblue;*/
+   flex-direction: row;
+   font-size: 3vh;
+  }
+
+  .fa-user{
+    color: black;
+    margin-right:1vh;
+    font-size: 3vh;
+  }
+  #showScard{
+    color:#fff;
+    font-size: 5vh;
+  }
+
+  #showScard:hover{
+    box-shadow:0px 11px 22px -2px rgba(0, 0, 0, 0.75);
+  }
+
+  #showListTable{
+    display: none;
+    font-size: 5vh;
+    color:#fff;
+  }
+  #showListTable:hover{
+    box-shadow:0px 11px 22px -2px rgba(0, 0, 0, 0.75);
+  }
+
+  /* Add Animation */
+@-webkit-keyframes animatetop {
+  from {right:-50%; opacity:0} 
+  to {right:0; opacity:1}
+}
+
+@keyframes animatetop {
+  from {right:-50%; opacity:0}
+  to {right:0; opacity:1}
+}
